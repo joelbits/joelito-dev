@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>JoelITo.dev</h1>
+    <h1>info@joelito.dev</h1>
   </div>
 </template>
 
