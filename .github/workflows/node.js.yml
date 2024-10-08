@@ -36,7 +36,7 @@ jobs:
 
       # Build the project
       - name: Build the project
-        run: npm run build
+        run: npm run generate
 
       - name: Configure AWS credentials using OIDC
         uses: aws-actions/configure-aws-credentials@v2
@@ -46,7 +46,7 @@ jobs:
 
       # Sync the build folder to S3
       - name: Deploy to S3
-        run: aws s3 sync ./dist s3://${{ env.S3_BUCKET }} --delete
+        run: aws s3 sync .output/public s3://${{ env.S3_BUCKET }} --delete
 
       # Invalidate the CloudFront cache
       - name: Invalidate CloudFront Cache
