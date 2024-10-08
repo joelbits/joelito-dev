@@ -14,9 +14,9 @@ jobs:
       contents: read
 
     env:
-      S3_BUCKET: joelitodevsitestack-joelitodevsitestackwebsitebuck-rtl2k0ywcqsz
-      CLOUDFRONT_DISTRIBUTION_ID: E2E1YSV2BWZ7WX
-      AWS_DEPLOY_ROLE: arn:aws:iam::215206961455:role/JoelitoDevSiteStack-JoelitoDevSiteStackGithubAction-gu0L4qvGEOJS
+      S3_BUCKET: joelitodevsitestack-joelitodevsitestackwebsitebuck-ktznivmeybyz
+      CLOUDFRONT_DISTRIBUTION_ID: E3VIBZMWYWUN6T
+      AWS_DEPLOY_ROLE: arn:aws:iam::215206961455:role/JoelitoDevSiteStack-JoelitoDevSiteStackGithubAction-GggXajl4xrJt
       AWS_REGION: eu-north-1
 
     steps:
